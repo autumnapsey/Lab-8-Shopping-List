@@ -1,0 +1,78 @@
+/* Need to position form, add media queries, etc. */
+
+body {
+	color: #ecf0f1;
+	margin: auto;
+	font-family: Helvetica, Arial, sans serif;
+	background-color: #27ae60;
+}
+
+ul {
+	display: inline-block;
+	list-style-type: none;
+}
+
+#prices {
+	text-align: right;
+	float: right;
+}
+
+.headerimg {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+h1 {
+	font-family: 'Permanent Marker', cursive, Arial, sans serif;
+	font-size: 500%;
+	color: #000000;
+	-webkit-text-stroke-width: .1px;
+    -webkit-text-stroke-color: #7f8c8d;
+	position: absolute;
+	top: 10px;
+	left: 30%;
+}
+
+h2 {
+	margin: 0px;
+	padding: 5px;
+}
+.listbox {
+	width: 20%;
+	margin: 10px, auto;
+}
+
+form {
+	display: inline-block;
+	
+}
+
+div {
+	margin: 10px auto;
+}
+
+.totalbox {
+	width: 25%;
+	margin: 1px, auto;
+	font-size: 150%;
+	border-style: solid none none none;
+}
+
+span {
+	float: right;
+}
+
+.formbox {
+	background-color: #c0392b;
+	width: 100%;
+	margin: 0px;
+	margin-top: 0px;
+	position: relative;
+	top: -5px;
+	padding: 10px;
+}
+
+img {
+	margin: 0px;
+}
