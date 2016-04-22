@@ -51,8 +51,7 @@ button.addEventListener("click", function(){
 	newUserPrice.innerText += "$ " + userPrice;
 	prices.appendChild(newUserPrice);
 
-	total += parseInt(userPrice,10);
-	console.log(total);
+	total += parseFloat(userPrice,10);
 
 	foodTotal.innerText = " $" + total;
 
