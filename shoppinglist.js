@@ -29,7 +29,7 @@ groceries.forEach(function(item) {
 	food.appendChild(newItem);
 
 	var newPrice = document.createElement("li");
-	newPrice.innerText += "$ " + item.price;
+	newPrice.innerText += "$ " + parseFloat(Math.round(item.price*100)/100).toFixed(2);
 	prices.appendChild(newPrice);
 	total += item.price;
 });
@@ -46,7 +46,7 @@ button.addEventListener("click", function(){
 	newUserFood.innerText += userFood;
 	food.appendChild(newUserFood);
 
-	var userPrice = document.getElementById("itemPrice").value;
+	var userPrice = parseFloat(Math.round(document.getElementById("itemPrice").value*100)/100).toFixed(2);
 	var newUserPrice = document.createElement("li");
 	newUserPrice.innerText += "$ " + userPrice;
 	prices.appendChild(newUserPrice);
